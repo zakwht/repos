@@ -7,8 +7,95 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
+.modal-blur {
+  position: fixed;
+  inset: -100vh -100vw;
+  width: 200vw;
+  height: 200vh;
+  background-color: rgba(255,255,255,0.5);
+  backdrop-filter: blur(1px);
+}
+
+.modal {
+  gap: 1em;
+  display: flex;
+  flex-direction: column;
+  min-width: 320px;
+  max-width: 480px;
+  z-index: 100;
+  position: fixed;
+  background-color: lightgrey;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 8px;
+  padding: 32px;
+
+}
+
+.modal h4 {
+  margin: 0;
+}
+
+a, .link {
+  color: initial;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover, .link:hover {
+  color: #0969da;
+}
+
+.flex-center, .modal-footer li {
+  display: flex;
+  align-items: center;
+}
+
+ul.modal-footer svg {
+  margin-right: 0.5em;
+}
+
+.modal-lists {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lang div {
+  width: 0.75em;
+  height: 0.75em;
+  border-radius: 50%;
+  margin-right: 0.25em;
+}
+
+.topic {
+  text-align: right;
+}
+
+.topic-button, .topic span {
+  display: inline-flex;
+  color: #0969da;
+  fill: #0969da;
+  border: 1px solid #0969da;
+  border-radius: 1em;
+  padding: 0.25em 0.5em;
+  margin-bottom: 0.25em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.topic-button:hover, .topic span:hover {
+  color: white;
+  fill: white;
+  background-color: #0969da;
+}
+
+.ml-4 {
+  margin-left: 0.25em;
+}
