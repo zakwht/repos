@@ -8,6 +8,11 @@ import {ReactComponent as ForkIcon} from "./assets/icons/fork.svg"
 import {ReactComponent as StarIcon} from "./assets/icons/star.svg"
 import {ReactComponent as LicenseIcon} from "./assets/icons/license.svg"
 import {ReactComponent as ClearIcon} from "./assets/icons/clear.svg"
+import {ReactComponent as CodeIcon} from "./assets/icons/code.svg"
+import {ReactComponent as PeopleIcon} from "./assets/icons/people.svg"
+import {ReactComponent as RepoIcon} from "./assets/icons/repository.svg"
+import {ReactComponent as PackageIcon} from "./assets/icons/package.svg"
+
 
 // util
 const byteFormat = (b: number): string => (
@@ -194,14 +199,22 @@ export const App: React.FC = () => {
     r.description.toLowerCase().includes(search.query.toLowerCase()) 
   ))
 
-  let topLanguages = Object.entries(stats.languages.nodes).slice(0,16)
-  let topTopics = Object.entries(stats.topics.nodes).filter(([t]) => !topLanguages.some(l => l[0].toLowerCase() === t.toLowerCase())).slice(0,9)
+  let topLanguages = Object.entries(stats.languages.nodes).slice(0,12)
+  let topTopics = Object.entries(stats.topics.nodes).filter(([t]) => !topLanguages.some(l => l[0].toLowerCase() === t.toLowerCase())).slice(0,8)
 
   return (
     <>
     {modalRepo && <Modal setSearch={setSearch} repo={modalRepo} exit={() => setModalRepo(undefined)} />}
     
     <div className="sidebar flex-v space-btwn">
+      <div className="flex-v summary">
+        <span><CodeIcon />{stats.languages.totalCount} Languages</span>
+        <span><CommitIcon />{stats.totals.contributions} Commits</span>
+        <span><StarIcon />{stats.totals.stars} Stars</span>
+        <span><PeopleIcon />{stats.totals.followers} Followers</span>
+        <span><RepoIcon />{stats.totals.repositories + stats.totals.gists} Repositories</span>
+        <span><PackageIcon />{stats.totals.packages} Packages</span>
+      </div>
       <div>
         <h3 className="mb-4">Top Languages</h3>
         <ul>
@@ -235,14 +248,16 @@ export const App: React.FC = () => {
           ))}
         </ul>
       </div>
+      <footer>
+         <a 
+          href="https://github.com/zakwht" 
+          target="_blank" 
+          rel="noreferrer"
+        >&copy; {new Date().getFullYear()} github.com/zakwht</a>
+      </footer>
     </div>
     
     <main id="repos" ref={ref}>
-      {/* <div
-        id="repos" 
-        ref={ref} 
-        aria-hidden="true"
-      /> */}
       <div className="flex mb-8">
         <input
           value={search.query || ''}
@@ -261,28 +276,11 @@ export const App: React.FC = () => {
             <ClearIcon className="ml-4" />
           </span>
         ))}
-        {/* {Object.keys(search).length > 0 && (
-          <span 
-            role="button"
-            className="topic-button flex-center ml-4"
-            onClick={() => setSearch({})}
-            style={{marginBottom: 0}}
-          >
-            {Object.entries(search).slice(0,1).map(([k,v]) => `${k}:${v}`)}
-            <ClearIcon className="ml-4" />
-          </span>
-        )} */}
       </div>
       <ul className="repos">
         {repos.map(r => (
           <RepoBox {...r} key={r.name} setSearch={(s: {}) => setSearch({...search, ...s})} setModalRepo={setModalRepo} />
         ))}
-        {/* {repos.map(repo => (
-          <li className="link" onClick={() => setModalRepo(repo)} key={repo.name}>
-            <div className="bold">{repo.name}</div>
-            <span>{repo.description}</span>
-          </li>
-        ))} */}
       </ul>
     </main>
     </>
