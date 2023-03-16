@@ -1,3 +1,26 @@
+:root {
+  --text: #111;
+  --text-muted: #444;
+  --bg: #fff;
+  --bg-muted: #ddd;
+  --link: #0969da;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text: #eee;
+    --text-muted: #bbb;
+    --bg: #33363f;
+    --bg-muted: #222;
+  }
+}
+
+html {
+  background-color: var(--bg);
+  color: var(--text);
+  fill: var(--text);
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -17,18 +40,10 @@ input {
   border-radius: 0.5em;
   outline: 0;
   padding: 0.25em 0.5em;
-  border: 1px solid #444;
+  border: 1px solid var(--text-muted);
 }
 
-footer {
-  font-size: 0.75em;
-}
-
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
+/* modal styles */
 
 .modal-blur {
   z-index: 10;
@@ -48,14 +63,28 @@ ul {
   max-width: 480px;
   z-index: 100;
   position: fixed;
-  /* bg-muted */
-  background-color: #ddd;
+  background-color: var(--bg-muted);
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
   border-radius: 8px;
   padding: 32px;
+}
 
+ul.modal-footer svg {
+  margin-right: 0.5em;
+}
+
+/* utility element styles */
+
+footer {
+  font-size: 0.75em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 h3, h4 {
@@ -63,13 +92,13 @@ h3, h4 {
 }
 
 a, .link {
-  color: initial;
+  color: inherit;
   text-decoration: none;
   cursor: pointer;
 }
 
 a:hover, .link:hover {
-  color: #0969da;
+  color: var(--link);
 }
 
 .flex-center, .modal-footer li, .summary span {
@@ -77,10 +106,8 @@ a:hover, .link:hover {
   align-items: center;
 }
 
-ul.modal-footer svg {
-  margin-right: 0.5em;
-}
 
+/* component classes */
 
 .lang-button div {
   width: 0.75em;
@@ -95,9 +122,9 @@ ul.modal-footer svg {
 
 .topic-button, .topic span {
   display: inline-flex;
-  color: #0969da;
-  fill: #0969da;
-  border: 1px solid #0969da;
+  color: var(--link);
+  fill: var(--link);
+  border: 1px solid var(--link);
   border-radius: 1em;
   padding: 0.25em 0.5em;
   margin-bottom: 0.25em;
@@ -108,8 +135,11 @@ ul.modal-footer svg {
 .topic-button:hover, .topic span:hover {
   color: white;
   fill: white;
-  background-color: #0969da;
+  background-color: var(--link);
 }
+
+
+/* sidebar classes */
 
 .sidebar {
   position: fixed;
@@ -120,6 +150,9 @@ ul.modal-footer svg {
 .summary svg {
   margin-right: 0.25em;
 }
+
+
+/* UTILITY CLASSES */
 
 .mt-auto {
   margin-top: auto;
@@ -176,8 +209,7 @@ ul.modal-footer svg {
 
 .repo-box {
   width: 320px;
-  /* text-muted */
-  border: 1px solid #444;
+  border: 1px solid var(--text-muted);
   border-radius: 0.5em;
   padding: 1em;
 }
@@ -186,13 +218,12 @@ ul.modal-footer svg {
   display: block;
   margin-top: 0.5em;
   margin-bottom: 1em;
-  /* text-muted */
-  color: #444;
+  color: var(--text-muted);
 }
 
 .repo-box .public {
-  color: #444;
-  border: 1px solid #444;
+  color: var(--text-muted);
+  border: 1px solid var(--text-muted);
   border-radius: 1em;
   font-size: 0.75em;
   padding: 0.25em 0.5em;
