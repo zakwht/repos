@@ -7,6 +7,19 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+main {
+  margin-left: 280px;
+  padding-top: 1em;
+}
+
+input {
+  height: 1.75em;
+  border-radius: 0.5em;
+  outline: 0;
+  padding: 0.25em 0.5em;
+  border: 1px solid #444;
+}
+
 ul {
   list-style: none;
   padding: 0;
@@ -14,6 +27,7 @@ ul {
 }
 
 .modal-blur {
+  z-index: 10;
   position: fixed;
   inset: -100vh -100vw;
   width: 200vw;
@@ -39,7 +53,7 @@ ul {
 
 }
 
-.modal h4 {
+h3, h4 {
   margin: 0;
 }
 
@@ -62,12 +76,8 @@ ul.modal-footer svg {
   margin-right: 0.5em;
 }
 
-.modal-lists {
-  display: flex;
-  justify-content: space-between;
-}
 
-.lang div {
+.lang-button div {
   width: 0.75em;
   height: 0.75em;
   border-radius: 50%;
@@ -96,6 +106,104 @@ ul.modal-footer svg {
   background-color: #0969da;
 }
 
+.sidebar {
+  position: fixed;
+  inset: 1em;
+  width: 240px;
+}
+
+.mt-auto {
+  margin-top: auto;
+}
+
 .ml-4 {
   margin-left: 0.25em;
+}
+
+.mb-4 {
+  margin-bottom: 0.25em;
+}
+
+.mb-8 {
+  margin-bottom: 0.5em;
+}
+
+.w-240 {
+  width: 240px;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-v {
+  display: flex;
+  flex-direction: column;
+}
+
+.space-btwn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.space-even {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.bold {
+  font-weight: 500;
+}
+
+
+
+/* repoBox */
+/*
+#repos {
+  height: 0.01ch;
+  margin-top: 2em;
+  margin-bottom: 1em;
+} */
+
+.repos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.repo-box {
+  width: 320px;
+  /* min-width: 320px; */
+  /* max-width: 400px; */
+}
+
+/* .repos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1em;
+  margin: 1em;
+} */
+
+.repo-box {
+  /* text-muted */
+  border: 1px solid #444;
+  border-radius: 0.5em;
+  padding: 1em;
+  max-width: 440px;
+}
+
+.repo-box > span {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+  /* text-muted */
+  color: #444;
+}
+
+.repo-box .public {
+  color: #444;
+  border: 1px solid #444;
+  border-radius: 1em;
+  font-size: 0.75em;
+  padding: 0.25em 0.5em;
 }

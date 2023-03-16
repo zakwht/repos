@@ -1,0 +1,218 @@
+{
+  "contributions": {
+    "totalCount": 329,
+    "nodes": {
+      "2018": 47,
+      "2019": 3,
+      "2020": 3,
+      "2021": 35,
+      "2022": 22,
+      "2023": 219
+    }
+  },
+  "languages": {
+    "totalCount": 25,
+    "nodes": {
+      "TeX": {
+        "color": "#3D6117",
+        "size": 116865,
+        "repos": 3
+      },
+      "TypeScript": {
+        "color": "#3178c6",
+        "size": 92396,
+        "repos": 6
+      },
+      "Jupyter Notebook": {
+        "color": "#DA5B0B",
+        "size": 78900,
+        "repos": 3
+      },
+      "Java": {
+        "color": "#b07219",
+        "size": 52268,
+        "repos": 2
+      },
+      "Python": {
+        "color": "#3572A5",
+        "size": 23388,
+        "repos": 5
+      },
+      "R": {
+        "color": "#198CE7",
+        "size": 19160,
+        "repos": 4
+      },
+      "JavaScript": {
+        "color": "#f1e05a",
+        "size": 16076,
+        "repos": 10
+      },
+      "CSS": {
+        "color": "#563d7c",
+        "size": 13171,
+        "repos": 7
+      },
+      "Vue": {
+        "color": "#41b883",
+        "size": 5283,
+        "repos": 1
+      },
+      "HTML": {
+        "color": "#e34c26",
+        "size": 4472,
+        "repos": 8
+      },
+      "EJS": {
+        "color": "#a91e50",
+        "size": 2762,
+        "repos": 1
+      },
+      "Shell": {
+        "color": "#89e051",
+        "size": 2141,
+        "repos": 2
+      },
+      "Nunjucks": {
+        "color": "#3d8137",
+        "size": 1646,
+        "repos": 1
+      },
+      "jq": {
+        "color": "#c7254e",
+        "size": 660,
+        "repos": 1
+      },
+      "Makefile": {
+        "color": "#427819",
+        "size": 607,
+        "repos": 2
+      },
+      "Assembly": {
+        "color": "#6E4C13",
+        "size": 123,
+        "repos": 1
+      },
+      "C": {
+        "color": "#555555",
+        "size": 106,
+        "repos": 1
+      },
+      "AppleScript": {
+        "color": "#101F1F",
+        "size": 63,
+        "repos": 1
+      },
+      "Ruby": {
+        "color": "#701516",
+        "size": 52,
+        "repos": 1
+      },
+      "Racket": {
+        "color": "#3c5caa",
+        "size": 43,
+        "repos": 1
+      },
+      "Standard ML": {
+        "color": "#dc566d",
+        "size": 31,
+        "repos": 1
+      },
+      "PHP": {
+        "color": "#4F5D95",
+        "size": 29,
+        "repos": 1
+      },
+      "PowerShell": {
+        "color": "#012456",
+        "size": 25,
+        "repos": 1
+      },
+      "Procfile": {
+        "color": "#3B2F63",
+        "size": 21,
+        "repos": 1
+      },
+      "MATLAB": {
+        "color": "#e16737",
+        "size": 15,
+        "repos": 1
+      }
+    }
+  },
+  "licenses": {
+    "totalCount": 4,
+    "nodes": {
+      "MIT License": 12,
+      "GNU General Public License v3.0": 3,
+      "unlicensed": 2,
+      "Apache License 2.0": 1
+    }
+  },
+  "streak": {
+    "current": 0,
+    "max": 16,
+    "maxDate": "2023-02-12"
+  },
+  "topics": {
+    "totalCount": 43,
+    "nodes": {
+      "html": 8,
+      "web": 8,
+      "css": 7,
+      "javascript": 7,
+      "python": 7,
+      "typescript": 6,
+      "undergrad": 4,
+      "r": 3,
+      "react": 3,
+      "tex": 3,
+      "java": 2,
+      "browser-extension": 2,
+      "bioinformatics": 2,
+      "sars-cov-2": 2,
+      "machine-learning": 2,
+      "stats": 2,
+      "spotify": 2,
+      "battlesnake": 1,
+      "challenge": 1,
+      "self-destructing-messages": 1,
+      "nasa": 1,
+      "emotion": 1,
+      "nextjs": 1,
+      "portfolio": 1,
+      "npm": 1,
+      "roku": 1,
+      "package": 1,
+      "reinforcement-learning": 1,
+      "data-mining": 1,
+      "minesweeper": 1,
+      "ai": 1,
+      "studio-ghibli": 1,
+      "gaussian-kernel": 1,
+      "svm": 1,
+      "sql": 1,
+      "api": 1,
+      "express": 1,
+      "nunjucks": 1,
+      "svg": 1,
+      "jq": 1,
+      "shell": 1,
+      "ejs": 1,
+      "vue": 1
+    }
+  },
+  "totals": {
+    "forks": 5,
+    "stars": 8,
+    "commits": 269,
+    "contributions": 329,
+    "followers": 8,
+    "following": 7,
+    "starredRepositories": 5,
+    "repositories": 19,
+    "gists": 3,
+    "pullRequests": 0,
+    "packages": 0
+  }
+}
