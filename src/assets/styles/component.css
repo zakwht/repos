@@ -8,6 +8,19 @@ input {
   border: 1px solid var(--text-muted);
 }
 
+.sort {
+  position: absolute;
+  left: 724px;
+  transform: translateX(-100%);
+  bottom: 0.25em
+}
+
+@media screen and (min-width: 1390px) {
+  .sort {
+    left: 1094px;
+  }
+}
+
 /* MODAL */
 
 .modal-blur {

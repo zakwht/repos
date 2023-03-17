@@ -4,13 +4,22 @@ export type Search = Partial<{
   topic: string;
 }>;
 
+export enum Sort {
+  "Updated",
+  "Age",
+  "Size",
+  "Name"
+}
+
 export type Repo = {
   name: string;
   url: string;
   description: string;
+  pushedAt: string;
   createdAt: string;
   stargazerCount: number;
   forkCount: number;
+  diskUsage: number;
   object: {
     history: {
       totalCount: number;

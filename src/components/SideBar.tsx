@@ -48,10 +48,10 @@ export const SideBar = ({
         <RepoIcon />
         {stats.totals.repositories + stats.totals.gists} Repositories
       </span>
-      <span>
+      {/* <span>
         <PackageIcon />
         {stats.totals.packages} Packages
-      </span>
+      </span> */}
     </div>
     <div>
       <h3 className="mb-4">Top Languages</h3>

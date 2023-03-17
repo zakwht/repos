@@ -83,3 +83,7 @@ a:hover,
   fill: var(--text-muted);
   color: var(--text-muted);
 }
+
+.relative {
+  position: relative;
+}

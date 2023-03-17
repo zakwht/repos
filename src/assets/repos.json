@@ -1,7 +1,153 @@
 [
   {
+    "name": "linguist",
+    "pushedAt": "2023-03-16T00:43:49Z",
+    "createdAt": "2023-02-18T22:37:08Z",
+    "diskUsage": 652,
+    "languages": {
+      "edges": [
+        {
+          "size": 5283,
+          "node": {
+            "color": "#41b883",
+            "name": "Vue"
+          }
+        },
+        {
+          "size": 3740,
+          "node": {
+            "color": "#563d7c",
+            "name": "CSS"
+          }
+        },
+        {
+          "size": 975,
+          "node": {
+            "color": "#3178c6",
+            "name": "TypeScript"
+          }
+        },
+        {
+          "size": 362,
+          "node": {
+            "color": "#e34c26",
+            "name": "HTML"
+          }
+        }
+      ]
+    },
+    "licenseInfo": {
+      "name": "MIT License"
+    },
+    "url": "https://github.com/zakwht/linguist",
+    "description": "Linguist language visualization",
+    "stargazerCount": 0,
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "css"
+          }
+        },
+        {
+          "topic": {
+            "name": "html"
+          }
+        },
+        {
+          "topic": {
+            "name": "typescript"
+          }
+        },
+        {
+          "topic": {
+            "name": "vue"
+          }
+        },
+        {
+          "topic": {
+            "name": "web"
+          }
+        }
+      ]
+    },
+    "forkCount": 0,
+    "object": {
+      "history": {
+        "totalCount": 100
+      }
+    }
+  },
+  {
+    "name": "roku",
+    "pushedAt": "2023-03-14T04:14:58Z",
+    "createdAt": "2021-01-17T00:51:14Z",
+    "diskUsage": 127,
+    "languages": {
+      "edges": [
+        {
+          "size": 17178,
+          "node": {
+            "color": "#3178c6",
+            "name": "TypeScript"
+          }
+        },
+        {
+          "size": 4832,
+          "node": {
+            "color": "#f1e05a",
+            "name": "JavaScript"
+          }
+        }
+      ]
+    },
+    "licenseInfo": {
+      "name": "MIT License"
+    },
+    "url": "https://github.com/zakwht/roku",
+    "description": "A Node package designed to control Roku devices using TypeScript",
+    "stargazerCount": 0,
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "javascript"
+          }
+        },
+        {
+          "topic": {
+            "name": "npm"
+          }
+        },
+        {
+          "topic": {
+            "name": "roku"
+          }
+        },
+        {
+          "topic": {
+            "name": "typescript"
+          }
+        },
+        {
+          "topic": {
+            "name": "package"
+          }
+        }
+      ]
+    },
+    "forkCount": 0,
+    "object": {
+      "history": {
+        "totalCount": 21
+      }
+    }
+  },
+  {
     "name": "chatroom",
+    "pushedAt": "2023-03-06T06:33:17Z",
     "createdAt": "2018-02-01T19:42:29Z",
+    "diskUsage": 8,
     "languages": {
       "edges": [
         {
@@ -27,7 +173,9 @@
         }
       ]
     },
-    "licenseInfo": null,
+    "licenseInfo": {
+      "name": "MIT License"
+    },
     "url": "https://github.com/zakwht/chatroom",
     "description": "A simple javascript chat room",
     "stargazerCount": 6,
@@ -58,50 +206,93 @@
     "forkCount": 5,
     "object": {
       "history": {
-        "totalCount": 8
+        "totalCount": 9
       }
     }
   },
   {
-    "name": "battlesnake-2018",
-    "createdAt": "2018-03-04T04:51:38Z",
+    "name": "portfolio",
+    "pushedAt": "2023-03-04T07:01:32Z",
+    "createdAt": "2021-01-17T00:41:15Z",
+    "diskUsage": 10763,
     "languages": {
       "edges": [
         {
-          "size": 52043,
+          "size": 11731,
           "node": {
-            "color": "#b07219",
-            "name": "Java"
+            "color": "#3178c6",
+            "name": "TypeScript"
           }
         },
         {
-          "size": 65,
+          "size": 1642,
+          "node": {
+            "color": "#563d7c",
+            "name": "CSS"
+          }
+        },
+        {
+          "size": 514,
           "node": {
             "color": "#e34c26",
             "name": "HTML"
           }
+        },
+        {
+          "size": 40,
+          "node": {
+            "color": "#f1e05a",
+            "name": "JavaScript"
+          }
         }
       ]
     },
-    "licenseInfo": null,
-    "url": "https://github.com/zakwht/battlesnake-2018",
-    "description": "Java BattleSnake",
-    "stargazerCount": 2,
+    "licenseInfo": {
+      "name": "Apache License 2.0"
+    },
+    "url": "https://github.com/zakwht/portfolio",
+    "description": "My personal portfolio!",
+    "stargazerCount": 0,
     "repositoryTopics": {
       "nodes": [
         {
           "topic": {
-            "name": "battlesnake"
+            "name": "html"
           }
         },
         {
           "topic": {
-            "name": "java"
+            "name": "css"
           }
         },
         {
           "topic": {
-            "name": "challenge"
+            "name": "emotion"
+          }
+        },
+        {
+          "topic": {
+            "name": "nextjs"
+          }
+        },
+        {
+          "topic": {
+            "name": "portfolio"
+          }
+        },
+        {
+          "topic": {
+            "name": "react"
+          }
+        },
+        {
+          "topic": {
+            "name": "typescript"
+          }
+        },
+        {
+          "topic": {
+            "name": "web"
           }
         }
       ]
@@ -109,13 +300,469 @@
     "forkCount": 0,
     "object": {
       "history": {
-        "totalCount": 48
+        "totalCount": 30
+      }
+    }
+  },
+  {
+    "name": "goodreads",
+    "pushedAt": "2023-02-28T23:15:25Z",
+    "createdAt": "2023-02-08T21:31:48Z",
+    "diskUsage": 127,
+    "languages": {
+      "edges": [
+        {
+          "size": 5100,
+          "node": {
+            "color": "#f1e05a",
+            "name": "JavaScript"
+          }
+        },
+        {
+          "size": 1752,
+          "node": {
+            "color": "#3d8137",
+            "name": "Nunjucks"
+          }
+        }
+      ]
+    },
+    "licenseInfo": {
+      "name": "MIT License"
+    },
+    "url": "https://github.com/zakwht/goodreads",
+    "description": "REST API that returns the book a Goodreads user is currently reading",
+    "stargazerCount": 0,
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "api"
+          }
+        },
+        {
+          "topic": {
+            "name": "express"
+          }
+        },
+        {
+          "topic": {
+            "name": "javascript"
+          }
+        },
+        {
+          "topic": {
+            "name": "nunjucks"
+          }
+        },
+        {
+          "topic": {
+            "name": "svg"
+          }
+        },
+        {
+          "topic": {
+            "name": "web"
+          }
+        }
+      ]
+    },
+    "forkCount": 0,
+    "object": {
+      "history": {
+        "totalCount": 18
+      }
+    }
+  },
+  {
+    "name": "albums",
+    "pushedAt": "2023-02-17T19:41:21Z",
+    "createdAt": "2023-02-16T04:41:15Z",
+    "diskUsage": 4212,
+    "languages": {
+      "edges": [
+        {
+          "size": 3893,
+          "node": {
+            "color": "#f1e05a",
+            "name": "JavaScript"
+          }
+        },
+        {
+          "size": 2762,
+          "node": {
+            "color": "#a91e50",
+            "name": "EJS"
+          }
+        },
+        {
+          "size": 123,
+          "node": {
+            "color": "#563d7c",
+            "name": "CSS"
+          }
+        }
+      ]
+    },
+    "licenseInfo": {
+      "name": "MIT License"
+    },
+    "url": "https://github.com/zakwht/albums",
+    "description": "Web script that compiles information about Spotify albums",
+    "stargazerCount": 0,
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "css"
+          }
+        },
+        {
+          "topic": {
+            "name": "ejs"
+          }
+        },
+        {
+          "topic": {
+            "name": "html"
+          }
+        },
+        {
+          "topic": {
+            "name": "javascript"
+          }
+        },
+        {
+          "topic": {
+            "name": "spotify"
+          }
+        },
+        {
+          "topic": {
+            "name": "web"
+          }
+        }
+      ]
+    },
+    "forkCount": 0,
+    "object": {
+      "history": {
+        "totalCount": 6
+      }
+    }
+  },
+  {
+    "name": "taylor",
+    "pushedAt": "2023-02-17T19:38:56Z",
+    "createdAt": "2023-02-14T03:38:18Z",
+    "diskUsage": 857,
+    "languages": {
+      "edges": [
+        {
+          "size": 5645,
+          "node": {
+            "color": "#198CE7",
+            "name": "R"
+          }
+        },
+        {
+          "size": 2088,
+          "node": {
+            "color": "#89e051",
+            "name": "Shell"
+          }
+        },
+        {
+          "size": 771,
+          "node": {
+            "color": "#f1e05a",
+            "name": "JavaScript"
+          }
+        },
+        {
+          "size": 660,
+          "node": {
+            "color": "#c7254e",
+            "name": "jq"
+          }
+        }
+      ]
+    },
+    "licenseInfo": {
+      "name": "MIT License"
+    },
+    "url": "https://github.com/zakwht/taylor",
+    "description": "Statistical analysis on the relationship between a track's listed and peak chart positions",
+    "stargazerCount": 0,
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "javascript"
+          }
+        },
+        {
+          "topic": {
+            "name": "jq"
+          }
+        },
+        {
+          "topic": {
+            "name": "r"
+          }
+        },
+        {
+          "topic": {
+            "name": "shell"
+          }
+        },
+        {
+          "topic": {
+            "name": "stats"
+          }
+        },
+        {
+          "topic": {
+            "name": "spotify"
+          }
+        }
+      ]
+    },
+    "forkCount": 0,
+    "object": {
+      "history": {
+        "totalCount": 11
+      }
+    }
+  },
+  {
+    "name": "gible",
+    "pushedAt": "2023-02-09T06:08:03Z",
+    "createdAt": "2023-02-09T05:43:30Z",
+    "diskUsage": 186,
+    "languages": {
+      "edges": [
+        {
+          "size": 948,
+          "node": {
+            "color": "#563d7c",
+            "name": "CSS"
+          }
+        },
+        {
+          "size": 713,
+          "node": {
+            "color": "#e34c26",
+            "name": "HTML"
+          }
+        },
+        {
+          "size": 199,
+          "node": {
+            "color": "#f1e05a",
+            "name": "JavaScript"
+          }
+        }
+      ]
+    },
+    "licenseInfo": {
+      "name": "MIT License"
+    },
+    "url": "https://github.com/zakwht/gible",
+    "description": "Simple website for Professor Gible",
+    "stargazerCount": 0,
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "css"
+          }
+        },
+        {
+          "topic": {
+            "name": "html"
+          }
+        },
+        {
+          "topic": {
+            "name": "javascript"
+          }
+        },
+        {
+          "topic": {
+            "name": "web"
+          }
+        }
+      ]
+    },
+    "forkCount": 0,
+    "object": {
+      "history": {
+        "totalCount": 4
+      }
+    }
+  },
+  {
+    "name": "income",
+    "pushedAt": "2023-01-29T04:20:18Z",
+    "createdAt": "2023-01-29T02:01:44Z",
+    "diskUsage": 103,
+    "languages": {
+      "edges": [
+        {
+          "size": 7094,
+          "node": {
+            "color": "#198CE7",
+            "name": "R"
+          }
+        },
+        {
+          "size": 482,
+          "node": {
+            "color": "#427819",
+            "name": "Makefile"
+          }
+        }
+      ]
+    },
+    "licenseInfo": {
+      "name": "MIT License"
+    },
+    "url": "https://github.com/zakwht/income",
+    "description": "Statistical analysis on gender-based income inequality in Canada",
+    "stargazerCount": 0,
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "r"
+          }
+        },
+        {
+          "topic": {
+            "name": "sql"
+          }
+        },
+        {
+          "topic": {
+            "name": "stats"
+          }
+        }
+      ]
+    },
+    "forkCount": 0,
+    "object": {
+      "history": {
+        "totalCount": 6
+      }
+    }
+  },
+  {
+    "name": "ghibli",
+    "pushedAt": "2023-01-26T22:17:42Z",
+    "createdAt": "2022-09-09T08:18:34Z",
+    "diskUsage": 1621,
+    "languages": {
+      "edges": [
+        {
+          "size": 1550,
+          "node": {
+            "color": "#3178c6",
+            "name": "TypeScript"
+          }
+        },
+        {
+          "size": 1093,
+          "node": {
+            "color": "#3572A5",
+            "name": "Python"
+          }
+        },
+        {
+          "size": 579,
+          "node": {
+            "color": "#563d7c",
+            "name": "CSS"
+          }
+        },
+        {
+          "size": 513,
+          "node": {
+            "color": "#e34c26",
+            "name": "HTML"
+          }
+        },
+        {
+          "size": 402,
+          "node": {
+            "color": "#f1e05a",
+            "name": "JavaScript"
+          }
+        }
+      ]
+    },
+    "licenseInfo": {
+      "name": "MIT License"
+    },
+    "url": "https://github.com/zakwht/ghibli",
+    "description": "Browser extension designed to showcase stills from Studio Ghibli films",
+    "stargazerCount": 0,
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "browser-extension"
+          }
+        },
+        {
+          "topic": {
+            "name": "css"
+          }
+        },
+        {
+          "topic": {
+            "name": "python"
+          }
+        },
+        {
+          "topic": {
+            "name": "studio-ghibli"
+          }
+        },
+        {
+          "topic": {
+            "name": "typescript"
+          }
+        },
+        {
+          "topic": {
+            "name": "html"
+          }
+        },
+        {
+          "topic": {
+            "name": "react"
+          }
+        },
+        {
+          "topic": {
+            "name": "web"
+          }
+        }
+      ]
+    },
+    "forkCount": 0,
+    "object": {
+      "history": {
+        "totalCount": 10
       }
     }
   },
   {
     "name": "delete",
+    "pushedAt": "2023-01-15T07:48:05Z",
     "createdAt": "2018-08-27T06:06:34Z",
+    "diskUsage": 8,
     "languages": {
       "edges": [
         {
@@ -235,32 +882,7 @@
       "nodes": [
         {
           "topic": {
-            "name": "python"
-          }
-        },
-        {
-          "topic": {
-            "name": "java"
-          }
-        },
-        {
-          "topic": {
-            "name": "javascript"
-          }
-        },
-        {
-          "topic": {
-            "name": "r"
-          }
-        },
-        {
-          "topic": {
             "name": "self-destructing-messages"
-          }
-        },
-        {
-          "topic": {
-            "name": "typescript"
           }
         }
       ]
@@ -273,44 +895,10 @@
     }
   },
   {
-    "name": "mastermind",
-    "createdAt": "2018-10-20T08:44:34Z",
-    "languages": {
-      "edges": [
-        {
-          "size": 10774,
-          "node": {
-            "color": "#3572A5",
-            "name": "Python"
-          }
-        }
-      ]
-    },
-    "licenseInfo": {
-      "name": "MIT License"
-    },
-    "url": "https://github.com/zakwht/mastermind",
-    "description": "Board game recreation in Python!",
-    "stargazerCount": 0,
-    "repositoryTopics": {
-      "nodes": [
-        {
-          "topic": {
-            "name": "python"
-          }
-        }
-      ]
-    },
-    "forkCount": 0,
-    "object": {
-      "history": {
-        "totalCount": 13
-      }
-    }
-  },
-  {
     "name": "apod",
+    "pushedAt": "2023-01-14T00:28:39Z",
     "createdAt": "2020-11-19T06:49:12Z",
+    "diskUsage": 5155,
     "languages": {
       "edges": [
         {
@@ -396,114 +984,17 @@
     }
   },
   {
-    "name": "portfolio",
-    "createdAt": "2021-01-17T00:41:15Z",
+    "name": "mastermind",
+    "pushedAt": "2023-01-14T00:22:46Z",
+    "createdAt": "2018-10-20T08:44:34Z",
+    "diskUsage": 333,
     "languages": {
       "edges": [
         {
-          "size": 11731,
+          "size": 10774,
           "node": {
-            "color": "#3178c6",
-            "name": "TypeScript"
-          }
-        },
-        {
-          "size": 1642,
-          "node": {
-            "color": "#563d7c",
-            "name": "CSS"
-          }
-        },
-        {
-          "size": 514,
-          "node": {
-            "color": "#e34c26",
-            "name": "HTML"
-          }
-        },
-        {
-          "size": 40,
-          "node": {
-            "color": "#f1e05a",
-            "name": "JavaScript"
-          }
-        }
-      ]
-    },
-    "licenseInfo": {
-      "name": "Apache License 2.0"
-    },
-    "url": "https://github.com/zakwht/portfolio",
-    "description": "My personal portfolio!",
-    "stargazerCount": 0,
-    "repositoryTopics": {
-      "nodes": [
-        {
-          "topic": {
-            "name": "html"
-          }
-        },
-        {
-          "topic": {
-            "name": "css"
-          }
-        },
-        {
-          "topic": {
-            "name": "emotion"
-          }
-        },
-        {
-          "topic": {
-            "name": "nextjs"
-          }
-        },
-        {
-          "topic": {
-            "name": "portfolio"
-          }
-        },
-        {
-          "topic": {
-            "name": "react"
-          }
-        },
-        {
-          "topic": {
-            "name": "typescript"
-          }
-        },
-        {
-          "topic": {
-            "name": "web"
-          }
-        }
-      ]
-    },
-    "forkCount": 0,
-    "object": {
-      "history": {
-        "totalCount": 29
-      }
-    }
-  },
-  {
-    "name": "roku",
-    "createdAt": "2021-01-17T00:51:14Z",
-    "languages": {
-      "edges": [
-        {
-          "size": 17576,
-          "node": {
-            "color": "#3178c6",
-            "name": "TypeScript"
-          }
-        },
-        {
-          "size": 4691,
-          "node": {
-            "color": "#f1e05a",
-            "name": "JavaScript"
+            "color": "#3572A5",
+            "name": "Python"
           }
         }
       ]
@@ -511,34 +1002,14 @@
     "licenseInfo": {
       "name": "MIT License"
     },
-    "url": "https://github.com/zakwht/roku",
-    "description": "A Node package designed to control Roku devices using TypeScript",
+    "url": "https://github.com/zakwht/mastermind",
+    "description": "Board game recreation in Python!",
     "stargazerCount": 0,
     "repositoryTopics": {
       "nodes": [
         {
           "topic": {
-            "name": "javascript"
-          }
-        },
-        {
-          "topic": {
-            "name": "npm"
-          }
-        },
-        {
-          "topic": {
-            "name": "roku"
-          }
-        },
-        {
-          "topic": {
-            "name": "typescript"
-          }
-        },
-        {
-          "topic": {
-            "name": "package"
+            "name": "python"
           }
         }
       ]
@@ -546,47 +1017,63 @@
     "forkCount": 0,
     "object": {
       "history": {
-        "totalCount": 18
+        "totalCount": 13
       }
     }
   },
   {
-    "name": "ace2",
-    "createdAt": "2021-12-07T23:58:33Z",
+    "name": "sneaker-or-sandal",
+    "pushedAt": "2023-01-13T22:39:31Z",
+    "createdAt": "2023-01-13T21:36:06Z",
+    "diskUsage": 32425,
     "languages": {
       "edges": [
         {
-          "size": 21121,
+          "size": 10671,
           "node": {
-            "color": "#3D6117",
-            "name": "TeX"
+            "color": "#3572A5",
+            "name": "Python"
           }
         },
         {
-          "size": 9787,
+          "size": 1094,
           "node": {
-            "color": "#DA5B0B",
-            "name": "Jupyter Notebook"
+            "color": "#e34c26",
+            "name": "HTML"
+          }
+        },
+        {
+          "size": 125,
+          "node": {
+            "color": "#427819",
+            "name": "Makefile"
+          }
+        },
+        {
+          "size": 21,
+          "node": {
+            "color": "#3B2F63",
+            "name": "Procfile"
           }
         }
       ]
     },
     "licenseInfo": {
-      "name": "GNU General Public License v3.0"
+      "name": "MIT License"
     },
-    "url": "https://github.com/zakwht/ace2",
-    "description": "An investigation into the effects of ACE2 mutations with respect to its interactions with the SARS-CoV-2 spike protein",
+    "url": "https://github.com/zakwht/sneaker-or-sandal",
+    "description": "A nonlinear classifier for categorizing shoes using machine learning",
     "stargazerCount": 0,
     "repositoryTopics": {
       "nodes": [
         {
           "topic": {
-            "name": "bioinformatics"
+            "name": "gaussian-kernel"
           }
         },
         {
           "topic": {
-            "name": "sars-cov-2"
+            "name": "machine-learning"
           }
         },
         {
@@ -596,70 +1083,7 @@
         },
         {
           "topic": {
-            "name": "undergrad"
-          }
-        },
-        {
-          "topic": {
-            "name": "tex"
-          }
-        }
-      ]
-    },
-    "forkCount": 0,
-    "object": {
-      "history": {
-        "totalCount": 10
-      }
-    }
-  },
-  {
-    "name": "minesweeper",
-    "createdAt": "2021-12-21T00:44:08Z",
-    "languages": {
-      "edges": [
-        {
-          "size": 48918,
-          "node": {
-            "color": "#DA5B0B",
-            "name": "Jupyter Notebook"
-          }
-        },
-        {
-          "size": 28033,
-          "node": {
-            "color": "#3D6117",
-            "name": "TeX"
-          }
-        }
-      ]
-    },
-    "licenseInfo": {
-      "name": "GNU General Public License v3.0"
-    },
-    "url": "https://github.com/zakwht/minesweeper",
-    "description": "Reinforcement learning agents designed to solve Minesweeper using Q-learning",
-    "stargazerCount": 0,
-    "repositoryTopics": {
-      "nodes": [
-        {
-          "topic": {
-            "name": "python"
-          }
-        },
-        {
-          "topic": {
-            "name": "reinforcement-learning"
-          }
-        },
-        {
-          "topic": {
-            "name": "data-mining"
-          }
-        },
-        {
-          "topic": {
-            "name": "minesweeper"
+            "name": "svm"
           }
         },
         {
@@ -669,7 +1093,7 @@
         },
         {
           "topic": {
-            "name": "tex"
+            "name": "html"
           }
         }
       ]
@@ -677,13 +1101,15 @@
     "forkCount": 0,
     "object": {
       "history": {
-        "totalCount": 5
+        "totalCount": 4
       }
     }
   },
   {
     "name": "sars-cov-2",
+    "pushedAt": "2022-06-16T06:16:01Z",
     "createdAt": "2022-04-23T04:15:48Z",
+    "diskUsage": 2825,
     "languages": {
       "edges": [
         {
@@ -769,63 +1195,114 @@
     }
   },
   {
-    "name": "ghibli",
-    "createdAt": "2022-09-09T08:18:34Z",
+    "name": "minesweeper",
+    "pushedAt": "2021-12-23T02:01:18Z",
+    "createdAt": "2021-12-21T00:44:08Z",
+    "diskUsage": 1721,
     "languages": {
       "edges": [
         {
-          "size": 1550,
+          "size": 48918,
           "node": {
-            "color": "#3178c6",
-            "name": "TypeScript"
+            "color": "#DA5B0B",
+            "name": "Jupyter Notebook"
           }
         },
         {
-          "size": 1093,
+          "size": 28033,
           "node": {
-            "color": "#3572A5",
-            "name": "Python"
-          }
-        },
-        {
-          "size": 579,
-          "node": {
-            "color": "#563d7c",
-            "name": "CSS"
-          }
-        },
-        {
-          "size": 513,
-          "node": {
-            "color": "#e34c26",
-            "name": "HTML"
-          }
-        },
-        {
-          "size": 402,
-          "node": {
-            "color": "#f1e05a",
-            "name": "JavaScript"
+            "color": "#3D6117",
+            "name": "TeX"
           }
         }
       ]
     },
     "licenseInfo": {
-      "name": "MIT License"
+      "name": "GNU General Public License v3.0"
     },
-    "url": "https://github.com/zakwht/ghibli",
-    "description": "Browser extension designed to showcase stills from Studio Ghibli films",
+    "url": "https://github.com/zakwht/minesweeper",
+    "description": "Reinforcement learning agents designed to solve Minesweeper using Q-learning",
     "stargazerCount": 0,
     "repositoryTopics": {
       "nodes": [
         {
           "topic": {
-            "name": "browser-extension"
+            "name": "python"
           }
         },
         {
           "topic": {
-            "name": "css"
+            "name": "reinforcement-learning"
+          }
+        },
+        {
+          "topic": {
+            "name": "data-mining"
+          }
+        },
+        {
+          "topic": {
+            "name": "minesweeper"
+          }
+        },
+        {
+          "topic": {
+            "name": "undergrad"
+          }
+        },
+        {
+          "topic": {
+            "name": "tex"
+          }
+        }
+      ]
+    },
+    "forkCount": 0,
+    "object": {
+      "history": {
+        "totalCount": 5
+      }
+    }
+  },
+  {
+    "name": "ace2",
+    "pushedAt": "2021-12-21T00:47:24Z",
+    "createdAt": "2021-12-07T23:58:33Z",
+    "diskUsage": 652,
+    "languages": {
+      "edges": [
+        {
+          "size": 21121,
+          "node": {
+            "color": "#3D6117",
+            "name": "TeX"
+          }
+        },
+        {
+          "size": 9787,
+          "node": {
+            "color": "#DA5B0B",
+            "name": "Jupyter Notebook"
+          }
+        }
+      ]
+    },
+    "licenseInfo": {
+      "name": "GNU General Public License v3.0"
+    },
+    "url": "https://github.com/zakwht/ace2",
+    "description": "An investigation into the effects of ACE2 mutations with respect to its interactions with the SARS-CoV-2 spike protein",
+    "stargazerCount": 0,
+    "repositoryTopics": {
+      "nodes": [
+        {
+          "topic": {
+            "name": "bioinformatics"
+          }
+        },
+        {
+          "topic": {
+            "name": "sars-cov-2"
           }
         },
         {
@@ -835,27 +1312,12 @@
         },
         {
           "topic": {
-            "name": "studio-ghibli"
+            "name": "undergrad"
           }
         },
         {
           "topic": {
-            "name": "typescript"
-          }
-        },
-        {
-          "topic": {
-            "name": "html"
-          }
-        },
-        {
-          "topic": {
-            "name": "react"
-          }
-        },
-        {
-          "topic": {
-            "name": "web"
+            "name": "tex"
           }
         }
       ]
@@ -868,458 +1330,21 @@
     }
   },
   {
-    "name": "sneaker-or-sandal",
-    "createdAt": "2023-01-13T21:36:06Z",
+    "name": "battlesnake-2018",
+    "pushedAt": "2018-03-05T23:06:35Z",
+    "createdAt": "2018-03-04T04:51:38Z",
+    "diskUsage": 247,
     "languages": {
       "edges": [
         {
-          "size": 10671,
+          "size": 52043,
           "node": {
-            "color": "#3572A5",
-            "name": "Python"
+            "color": "#b07219",
+            "name": "Java"
           }
         },
         {
-          "size": 1094,
-          "node": {
-            "color": "#e34c26",
-            "name": "HTML"
-          }
-        },
-        {
-          "size": 125,
-          "node": {
-            "color": "#427819",
-            "name": "Makefile"
-          }
-        },
-        {
-          "size": 21,
-          "node": {
-            "color": "#3B2F63",
-            "name": "Procfile"
-          }
-        }
-      ]
-    },
-    "licenseInfo": {
-      "name": "MIT License"
-    },
-    "url": "https://github.com/zakwht/sneaker-or-sandal",
-    "description": "A nonlinear classifier for categorizing shoes using machine learning",
-    "stargazerCount": 0,
-    "repositoryTopics": {
-      "nodes": [
-        {
-          "topic": {
-            "name": "gaussian-kernel"
-          }
-        },
-        {
-          "topic": {
-            "name": "machine-learning"
-          }
-        },
-        {
-          "topic": {
-            "name": "python"
-          }
-        },
-        {
-          "topic": {
-            "name": "svm"
-          }
-        },
-        {
-          "topic": {
-            "name": "undergrad"
-          }
-        },
-        {
-          "topic": {
-            "name": "html"
-          }
-        }
-      ]
-    },
-    "forkCount": 0,
-    "object": {
-      "history": {
-        "totalCount": 4
-      }
-    }
-  },
-  {
-    "name": "income",
-    "createdAt": "2023-01-29T02:01:44Z",
-    "languages": {
-      "edges": [
-        {
-          "size": 7094,
-          "node": {
-            "color": "#198CE7",
-            "name": "R"
-          }
-        },
-        {
-          "size": 482,
-          "node": {
-            "color": "#427819",
-            "name": "Makefile"
-          }
-        }
-      ]
-    },
-    "licenseInfo": {
-      "name": "MIT License"
-    },
-    "url": "https://github.com/zakwht/income",
-    "description": "Statistical analysis on gender-based income inequality in Canada",
-    "stargazerCount": 0,
-    "repositoryTopics": {
-      "nodes": [
-        {
-          "topic": {
-            "name": "r"
-          }
-        },
-        {
-          "topic": {
-            "name": "sql"
-          }
-        },
-        {
-          "topic": {
-            "name": "stats"
-          }
-        }
-      ]
-    },
-    "forkCount": 0,
-    "object": {
-      "history": {
-        "totalCount": 6
-      }
-    }
-  },
-  {
-    "name": "goodreads",
-    "createdAt": "2023-02-08T21:31:48Z",
-    "languages": {
-      "edges": [
-        {
-          "size": 4561,
-          "node": {
-            "color": "#f1e05a",
-            "name": "JavaScript"
-          }
-        },
-        {
-          "size": 1646,
-          "node": {
-            "color": "#3d8137",
-            "name": "Nunjucks"
-          }
-        }
-      ]
-    },
-    "licenseInfo": {
-      "name": "MIT License"
-    },
-    "url": "https://github.com/zakwht/goodreads",
-    "description": "REST API that returns the book a Goodreads user is currently reading",
-    "stargazerCount": 0,
-    "repositoryTopics": {
-      "nodes": [
-        {
-          "topic": {
-            "name": "api"
-          }
-        },
-        {
-          "topic": {
-            "name": "express"
-          }
-        },
-        {
-          "topic": {
-            "name": "javascript"
-          }
-        },
-        {
-          "topic": {
-            "name": "nunjucks"
-          }
-        },
-        {
-          "topic": {
-            "name": "svg"
-          }
-        },
-        {
-          "topic": {
-            "name": "web"
-          }
-        }
-      ]
-    },
-    "forkCount": 0,
-    "object": {
-      "history": {
-        "totalCount": 14
-      }
-    }
-  },
-  {
-    "name": "gible",
-    "createdAt": "2023-02-09T05:43:30Z",
-    "languages": {
-      "edges": [
-        {
-          "size": 948,
-          "node": {
-            "color": "#563d7c",
-            "name": "CSS"
-          }
-        },
-        {
-          "size": 713,
-          "node": {
-            "color": "#e34c26",
-            "name": "HTML"
-          }
-        },
-        {
-          "size": 199,
-          "node": {
-            "color": "#f1e05a",
-            "name": "JavaScript"
-          }
-        }
-      ]
-    },
-    "licenseInfo": {
-      "name": "MIT License"
-    },
-    "url": "https://github.com/zakwht/gible",
-    "description": "Simple website for Professor Gible",
-    "stargazerCount": 0,
-    "repositoryTopics": {
-      "nodes": [
-        {
-          "topic": {
-            "name": "css"
-          }
-        },
-        {
-          "topic": {
-            "name": "html"
-          }
-        },
-        {
-          "topic": {
-            "name": "javascript"
-          }
-        },
-        {
-          "topic": {
-            "name": "web"
-          }
-        }
-      ]
-    },
-    "forkCount": 0,
-    "object": {
-      "history": {
-        "totalCount": 4
-      }
-    }
-  },
-  {
-    "name": "taylor",
-    "createdAt": "2023-02-14T03:38:18Z",
-    "languages": {
-      "edges": [
-        {
-          "size": 5645,
-          "node": {
-            "color": "#198CE7",
-            "name": "R"
-          }
-        },
-        {
-          "size": 2088,
-          "node": {
-            "color": "#89e051",
-            "name": "Shell"
-          }
-        },
-        {
-          "size": 771,
-          "node": {
-            "color": "#f1e05a",
-            "name": "JavaScript"
-          }
-        },
-        {
-          "size": 660,
-          "node": {
-            "color": "#c7254e",
-            "name": "jq"
-          }
-        }
-      ]
-    },
-    "licenseInfo": {
-      "name": "MIT License"
-    },
-    "url": "https://github.com/zakwht/taylor",
-    "description": "Statistical analysis on the relationship between a track's listed and peak chart positions",
-    "stargazerCount": 0,
-    "repositoryTopics": {
-      "nodes": [
-        {
-          "topic": {
-            "name": "javascript"
-          }
-        },
-        {
-          "topic": {
-            "name": "jq"
-          }
-        },
-        {
-          "topic": {
-            "name": "r"
-          }
-        },
-        {
-          "topic": {
-            "name": "shell"
-          }
-        },
-        {
-          "topic": {
-            "name": "stats"
-          }
-        },
-        {
-          "topic": {
-            "name": "spotify"
-          }
-        }
-      ]
-    },
-    "forkCount": 0,
-    "object": {
-      "history": {
-        "totalCount": 11
-      }
-    }
-  },
-  {
-    "name": "albums",
-    "createdAt": "2023-02-16T04:41:15Z",
-    "languages": {
-      "edges": [
-        {
-          "size": 3893,
-          "node": {
-            "color": "#f1e05a",
-            "name": "JavaScript"
-          }
-        },
-        {
-          "size": 2762,
-          "node": {
-            "color": "#a91e50",
-            "name": "EJS"
-          }
-        },
-        {
-          "size": 123,
-          "node": {
-            "color": "#563d7c",
-            "name": "CSS"
-          }
-        }
-      ]
-    },
-    "licenseInfo": {
-      "name": "MIT License"
-    },
-    "url": "https://github.com/zakwht/albums",
-    "description": "Web script that compiles information about Spotify albums",
-    "stargazerCount": 0,
-    "repositoryTopics": {
-      "nodes": [
-        {
-          "topic": {
-            "name": "css"
-          }
-        },
-        {
-          "topic": {
-            "name": "ejs"
-          }
-        },
-        {
-          "topic": {
-            "name": "html"
-          }
-        },
-        {
-          "topic": {
-            "name": "javascript"
-          }
-        },
-        {
-          "topic": {
-            "name": "spotify"
-          }
-        },
-        {
-          "topic": {
-            "name": "web"
-          }
-        }
-      ]
-    },
-    "forkCount": 0,
-    "object": {
-      "history": {
-        "totalCount": 6
-      }
-    }
-  },
-  {
-    "name": "linguist",
-    "createdAt": "2023-02-18T22:37:08Z",
-    "languages": {
-      "edges": [
-        {
-          "size": 5283,
-          "node": {
-            "color": "#41b883",
-            "name": "Vue"
-          }
-        },
-        {
-          "size": 3740,
-          "node": {
-            "color": "#563d7c",
-            "name": "CSS"
-          }
-        },
-        {
-          "size": 975,
-          "node": {
-            "color": "#3178c6",
-            "name": "TypeScript"
-          }
-        },
-        {
-          "size": 362,
+          "size": 65,
           "node": {
             "color": "#e34c26",
             "name": "HTML"
@@ -1327,37 +1352,25 @@
         }
       ]
     },
-    "licenseInfo": {
-      "name": "MIT License"
-    },
-    "url": "https://github.com/zakwht/linguist",
-    "description": "Linguist language visualization",
-    "stargazerCount": 0,
+    "licenseInfo": null,
+    "url": "https://github.com/zakwht/battlesnake-2018",
+    "description": "Java BattleSnake",
+    "stargazerCount": 2,
     "repositoryTopics": {
       "nodes": [
         {
           "topic": {
-            "name": "css"
+            "name": "battlesnake"
           }
         },
         {
           "topic": {
-            "name": "html"
+            "name": "java"
           }
         },
         {
           "topic": {
-            "name": "typescript"
-          }
-        },
-        {
-          "topic": {
-            "name": "vue"
-          }
-        },
-        {
-          "topic": {
-            "name": "web"
+            "name": "challenge"
           }
         }
       ]
@@ -1365,7 +1378,7 @@
     "forkCount": 0,
     "object": {
       "history": {
-        "totalCount": 50
+        "totalCount": 48
       }
     }
   }

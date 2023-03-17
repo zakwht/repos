@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 import allRepos from "./assets/repos.json";
-import { Repo, Search } from "./types";
+import { Repo, Search, Sort } from "./types";
 import { RepoBox } from "./components/RepoBox";
 import { Modal } from "./components/Modal";
 import { SideBar } from "./components/SideBar";
@@ -12,12 +12,13 @@ export const App: React.FC = () => {
   const [search, setSearch] = useState<Search>(
     Object.fromEntries(new URLSearchParams(window.location.search))
   );
+  const [sort, setSort] = useState<Sort>(Sort.Updated);
 
   useEffect(() => {
     ref.current && ref.current.scrollIntoView();
   }, [search]);
 
-  let repos = allRepos
+  let repos = (allRepos as Repo[])
     .filter((r) =>
       r.languages.edges.some(
         (x) => x.node.name === (search.lang || x.node.name)
@@ -33,6 +34,19 @@ export const App: React.FC = () => {
         !search.query ||
         r.name.includes(search.query.toLowerCase()) ||
         r.description.toLowerCase().includes(search.query.toLowerCase())
+    )
+    .sort(
+      // eslint-disable-next-line
+      (a, b) => {
+        switch (sort) {
+          // @ts-ignore
+          case Sort.Updated: return new Date(b.pushedAt) - new Date(a.pushedAt);
+          case Sort.Size: return b.diskUsage - a.diskUsage;
+          // @ts-ignore
+          case Sort.Age: return new Date(b.createdAt) - new Date(a.createdAt);
+          case Sort.Name: return a.name.localeCompare(b.name);
+        }
+      }
     );
 
   return (
@@ -48,7 +62,7 @@ export const App: React.FC = () => {
       <SideBar search={search} setSearch={setSearch} />
 
       <main id="repos" ref={ref}>
-        <Filter search={search} setSearch={setSearch} />
+        <Filter {...{ search, setSearch, sort, setSort }} />
         <ul className="repos">
           {repos.map((r) => (
             <RepoBox

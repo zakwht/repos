@@ -8,3 +8,4 @@ export { ReactComponent as CodeIcon } from "./code.svg";
 export { ReactComponent as PeopleIcon } from "./people.svg";
 export { ReactComponent as RepoIcon } from "./repository.svg";
 export { ReactComponent as PackageIcon } from "./package.svg";
+export { ReactComponent as SortIcon } from "./sort.svg";
