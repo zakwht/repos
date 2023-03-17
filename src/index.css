@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --text: #111;
   --text-muted: #444;
   --bg: #fff;
@@ -19,6 +19,8 @@ html {
   background-color: var(--bg);
   color: var(--text);
   fill: var(--text);
+  overflow: hidden;
+  height: 100%;
 }
 
 body {
@@ -28,24 +30,26 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
+  overflow: auto;
+  height: 100%;
+} */
 
-main {
+/* main {
   margin-left: 280px;
   padding-top: 1em;
-}
+} */
 
-input {
+/* input {
   height: 1.75em;
   border-radius: 0.5em;
   outline: 0;
   padding: 0.25em 0.5em;
   border: 1px solid var(--text-muted);
-}
+} */
 
 /* modal styles */
 
-.modal-blur {
+/* .modal-blur {
   z-index: 10;
   position: fixed;
   inset: -100vh -100vw;
@@ -73,11 +77,11 @@ input {
 
 ul.modal-footer svg {
   margin-right: 0.5em;
-}
+} */
 
 /* utility element styles */
 
-footer {
+/* footer {
   font-size: 0.75em;
 }
 
@@ -104,12 +108,12 @@ a:hover, .link:hover {
 .flex-center, .modal-footer li, .summary span {
   display: flex;
   align-items: center;
-}
+} */
 
 
 /* component classes */
 
-.lang-button div {
+/* .lang-button div {
   width: 0.75em;
   height: 0.75em;
   border-radius: 50%;
@@ -136,12 +140,12 @@ a:hover, .link:hover {
   color: white;
   fill: white;
   background-color: var(--link);
-}
+} */
 
 
 /* sidebar classes */
 
-.sidebar {
+/* .sidebar {
   position: fixed;
   inset: 1em;
   width: 240px;
@@ -149,12 +153,12 @@ a:hover, .link:hover {
 
 .summary svg {
   margin-right: 0.25em;
-}
+} */
 
 
 /* UTILITY CLASSES */
 
-.mt-auto {
+/* .mt-auto {
   margin-top: auto;
 }
 
@@ -195,12 +199,12 @@ a:hover, .link:hover {
 
 .bold {
   font-weight: 500;
-}
+} */
 
 
 
 /* repoBox */
-.repos {
+/* .repos {
   display: flex;
   flex-wrap: wrap;
   gap: 1em;
@@ -227,4 +231,4 @@ a:hover, .link:hover {
   border-radius: 1em;
   font-size: 0.75em;
   padding: 0.25em 0.5em;
-}
+} */

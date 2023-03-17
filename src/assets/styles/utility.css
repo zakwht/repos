@@ -1,0 +1,76 @@
+footer {
+  font-size: 0.75em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+h3,
+h4 {
+  margin: 0;
+}
+
+a,
+.link {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover,
+.link:hover {
+  color: var(--link);
+}
+
+.flex-center,
+.modal-footer li,
+.summary span {
+  display: flex;
+  align-items: center;
+}
+
+.mt-auto {
+  margin-top: auto;
+}
+
+.ml-4 {
+  margin-left: 0.25em;
+}
+
+.mb-4 {
+  margin-bottom: 0.25em;
+}
+
+.mb-8 {
+  margin-bottom: 0.5em;
+}
+
+.w-240 {
+  width: 240px;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-v {
+  display: flex;
+  flex-direction: column;
+}
+
+.space-btwn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.space-even {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.bold {
+  font-weight: 500;
+}
