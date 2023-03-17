@@ -105,7 +105,6 @@ ul.modal-footer svg {
   display: block;
   margin-top: 0.5em;
   margin-bottom: 1em;
-  color: var(--text-muted);
 }
 
 .repo-box .public {

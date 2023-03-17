@@ -1,4 +1,4 @@
-import React from "react";
+import { useState, useRef, useEffect } from "react";
 import allRepos from "./assets/repos.json";
 import { Repo, Search } from "./types";
 import { RepoBox } from "./components/RepoBox";
@@ -7,13 +7,13 @@ import { SideBar } from "./components/SideBar";
 import { Filter } from "./components/Filter";
 
 export const App: React.FC = () => {
-  const ref = React.useRef<HTMLDivElement>(null);
-  const [modalRepo, setModalRepo] = React.useState<Repo>();
-  const [search, setSearch] = React.useState<Search>(
+  const ref = useRef<HTMLDivElement>(null);
+  const [modalRepo, setModalRepo] = useState<Repo>();
+  const [search, setSearch] = useState<Search>(
     Object.fromEntries(new URLSearchParams(window.location.search))
   );
 
-  React.useEffect(() => {
+  useEffect(() => {
     ref.current && ref.current.scrollIntoView();
   }, [search]);
 

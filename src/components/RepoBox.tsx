@@ -1,3 +1,4 @@
+import { ForkIcon, StarIcon } from "../assets/icons";
 import { Repo, Search } from "../types";
 import { LangButton } from "./Buttons";
 
@@ -16,12 +17,24 @@ export const RepoBox = ({
       </span>
       <span className="public">Public</span>
     </div>
-    <span>{r.description}</span>
-    <div className="mt-auto">
+    <span className="text-muted">{r.description}</span>
+    <div className="mt-auto flex-center text-muted">
       <LangButton
         {...r.languages.edges[0].node}
         onClick={() => setSearch({ lang: r.languages.edges[0].node.name })}
       />
+      {r.stargazerCount > 0 && (
+        <span className="ml-16 flex-center">
+          <StarIcon />
+          {r.stargazerCount}
+        </span>
+      )}
+      {r.forkCount > 0 && (
+        <span className="ml-16 flex-center">
+          <ForkIcon />
+          {r.forkCount}
+        </span>
+      )}
     </div>
   </li>
 );
