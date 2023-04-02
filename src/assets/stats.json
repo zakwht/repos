@@ -1,27 +1,27 @@
 {
   "contributions": {
-    "totalCount": 329,
+    "totalCount": 463,
     "nodes": {
-      "2018": 47,
+      "2018": 44,
       "2019": 3,
       "2020": 3,
-      "2021": 35,
+      "2021": 34,
       "2022": 22,
-      "2023": 219
+      "2023": 357
     }
   },
   "languages": {
     "totalCount": 25,
     "nodes": {
+      "TypeScript": {
+        "color": "#3178c6",
+        "size": 132707,
+        "repos": 8
+      },
       "TeX": {
         "color": "#3D6117",
         "size": 116865,
         "repos": 3
-      },
-      "TypeScript": {
-        "color": "#3178c6",
-        "size": 92396,
-        "repos": 6
       },
       "Jupyter Notebook": {
         "color": "#DA5B0B",
@@ -33,35 +33,35 @@
         "size": 52268,
         "repos": 2
       },
+      "CSS": {
+        "color": "#563d7c",
+        "size": 23959,
+        "repos": 9
+      },
       "Python": {
         "color": "#3572A5",
         "size": 23388,
         "repos": 5
+      },
+      "JavaScript": {
+        "color": "#f1e05a",
+        "size": 22271,
+        "repos": 11
       },
       "R": {
         "color": "#198CE7",
         "size": 19160,
         "repos": 4
       },
-      "JavaScript": {
-        "color": "#f1e05a",
-        "size": 16076,
+      "HTML": {
+        "color": "#e34c26",
+        "size": 5476,
         "repos": 10
-      },
-      "CSS": {
-        "color": "#563d7c",
-        "size": 13171,
-        "repos": 7
       },
       "Vue": {
         "color": "#41b883",
         "size": 5283,
         "repos": 1
-      },
-      "HTML": {
-        "color": "#e34c26",
-        "size": 4472,
-        "repos": 8
       },
       "EJS": {
         "color": "#a91e50",
@@ -75,7 +75,7 @@
       },
       "Nunjucks": {
         "color": "#3d8137",
-        "size": 1646,
+        "size": 1752,
         "repos": 1
       },
       "jq": {
@@ -143,76 +143,79 @@
   "licenses": {
     "totalCount": 4,
     "nodes": {
-      "MIT License": 12,
-      "GNU General Public License v3.0": 3,
-      "unlicensed": 2,
-      "Apache License 2.0": 1
+      "MIT License": 14,
+      "GNU General Public License v3.0": 4,
+      "Apache License 2.0": 1,
+      "unlicensed": 1
     }
   },
   "streak": {
     "current": 0,
-    "max": 16,
-    "maxDate": "2023-02-12"
+    "max": 47,
+    "maxDate": "2022-12-27"
   },
   "topics": {
-    "totalCount": 43,
+    "totalCount": 46,
     "nodes": {
-      "html": 8,
-      "web": 8,
-      "css": 7,
-      "javascript": 7,
-      "python": 7,
-      "typescript": 6,
+      "web": 9,
+      "html": 9,
+      "css": 8,
+      "typescript": 7,
+      "javascript": 6,
+      "python": 6,
+      "react": 4,
       "undergrad": 4,
-      "r": 3,
-      "react": 3,
       "tex": 3,
-      "java": 2,
+      "express": 2,
+      "spotify": 2,
+      "r": 2,
+      "stats": 2,
       "browser-extension": 2,
+      "machine-learning": 2,
       "bioinformatics": 2,
       "sars-cov-2": 2,
-      "machine-learning": 2,
-      "stats": 2,
-      "spotify": 2,
-      "battlesnake": 1,
-      "challenge": 1,
-      "self-destructing-messages": 1,
-      "nasa": 1,
-      "emotion": 1,
-      "nextjs": 1,
-      "portfolio": 1,
+      "cypress": 1,
+      "swagger": 1,
+      "vue": 1,
+      "special": 1,
       "npm": 1,
       "roku": 1,
       "package": 1,
+      "emotion": 1,
+      "nextjs": 1,
+      "portfolio": 1,
+      "api": 1,
+      "nunjucks": 1,
+      "svg": 1,
+      "ejs": 1,
+      "jq": 1,
+      "shell": 1,
+      "sql": 1,
+      "studio-ghibli": 1,
+      "self-destructing-messages": 1,
+      "nasa": 1,
+      "gaussian-kernel": 1,
+      "svm": 1,
+      "ai": 1,
       "reinforcement-learning": 1,
       "data-mining": 1,
       "minesweeper": 1,
-      "ai": 1,
-      "studio-ghibli": 1,
-      "gaussian-kernel": 1,
-      "svm": 1,
-      "sql": 1,
-      "api": 1,
-      "express": 1,
-      "nunjucks": 1,
-      "svg": 1,
-      "jq": 1,
-      "shell": 1,
-      "ejs": 1,
-      "vue": 1
+      "battlesnake": 1,
+      "java": 1,
+      "challenge": 1
     }
   },
   "totals": {
     "forks": 5,
     "stars": 8,
-    "commits": 269,
-    "contributions": 329,
+    "commits": 403,
+    "contributions": 463,
     "followers": 8,
     "following": 7,
-    "starredRepositories": 5,
-    "repositories": 19,
+    "starredRepositories": 6,
+    "repositories": 21,
     "gists": 3,
-    "pullRequests": 0,
+    "pullRequests": 1,
     "packages": 0
   }
 }
