@@ -12,7 +12,7 @@ input {
   position: absolute;
   left: 724px;
   transform: translateX(-100%);
-  bottom: 0.25em
+  bottom: 0.25em;
 }
 
 @media screen and (min-width: 1390px) {
@@ -121,6 +121,7 @@ ul.modal-footer svg {
 }
 
 .repo-box .public {
+  height: fit-content;
   color: var(--text-muted);
   border: 1px solid var(--text-muted);
   border-radius: 1em;
