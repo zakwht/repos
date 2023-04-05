@@ -33,7 +33,7 @@ export const App: React.FC = () => {
       (r) =>
         !search.query ||
         r.name.includes(search.query.toLowerCase()) ||
-        r.description.toLowerCase().includes(search.query.toLowerCase())
+        r.description?.toLowerCase().includes(search.query.toLowerCase())
     )
     .sort(
       // eslint-disable-next-line
