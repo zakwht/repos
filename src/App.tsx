@@ -18,7 +18,7 @@ export const App: React.FC = () => {
     ref.current && ref.current.scrollIntoView();
   }, [search]);
 
-  let repos = (allRepos as Repo[])
+  let repos = (allRepos.data.user.repositories.nodes as Repo[])
     .filter((r) =>
       r.languages.edges.some(
         (x) => x.node.name === (search.lang || x.node.name)
