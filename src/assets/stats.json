@@ -1,13 +1,13 @@
 {
   "contributions": {
-    "totalCount": 536,
+    "totalCount": 540,
     "nodes": {
       "2018": 44,
       "2019": 3,
       "2020": 3,
       "2021": 34,
       "2022": 22,
-      "2023": 430
+      "2023": 434
     }
   },
   "languages": {
@@ -15,8 +15,8 @@
     "nodes": {
       "TypeScript": {
         "color": "#3178c6",
-        "size": 132708,
-        "repos": 8
+        "size": 134216,
+        "repos": 9
       },
       "TeX": {
         "color": "#3D6117",
@@ -33,6 +33,11 @@
         "size": 52268,
         "repos": 2
       },
+      "JavaScript": {
+        "color": "#f1e05a",
+        "size": 24978,
+        "repos": 13
+      },
       "CSS": {
         "color": "#563d7c",
         "size": 23983,
@@ -42,11 +47,6 @@
         "color": "#3572A5",
         "size": 23388,
         "repos": 5
-      },
-      "JavaScript": {
-        "color": "#f1e05a",
-        "size": 23267,
-        "repos": 12
       },
       "R": {
         "color": "#198CE7",
@@ -145,7 +145,7 @@
     "nodes": {
       "MIT License": 14,
       "GNU General Public License v3.0": 4,
-      "ISC License": 1,
+      "ISC License": 2,
       "Apache License 2.0": 1,
       "unlicensed": 1
     }
@@ -156,17 +156,19 @@
     "maxDate": "2023-02-11"
   },
   "topics": {
-    "totalCount": 50,
+    "totalCount": 51,
     "nodes": {
       "html": 9,
       "web": 9,
       "css": 8,
-      "javascript": 7,
-      "typescript": 7,
+      "typescript": 8,
+      "javascript": 8,
       "python": 6,
       "react": 4,
       "undergrad": 4,
       "tex": 3,
+      "npm": 2,
+      "package": 2,
       "express": 2,
       "spotify": 2,
       "r": 2,
@@ -175,15 +177,14 @@
       "machine-learning": 2,
       "bioinformatics": 2,
       "sars-cov-2": 2,
+      "special": 1,
       "github-actions": 1,
       "custom-github-action": 1,
-      "npm": 1,
+      "urlsearchparams": 1,
       "roku": 1,
-      "package": 1,
-      "special": 1,
       "cypress": 1,
-      "eval": 1,
       "swagger": 1,
+      "eval": 1,
       "vue": 1,
       "emotion": 1,
       "nextjs": 1,
@@ -213,12 +214,12 @@
   "totals": {
     "forks": 5,
     "stars": 8,
-    "commits": 470,
-    "contributions": 536,
+    "commits": 483,
+    "contributions": 540,
     "followers": 8,
     "following": 8,
     "starredRepositories": 6,
-    "repositories": 22,
+    "repositories": 23,
     "gists": 3,
     "pullRequests": 1,
     "packages": 0
